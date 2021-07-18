@@ -1,0 +1,48 @@
+@import "components/index.css";
+
+
+/* GENERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	color: #444;
+}
+h1 {
+  color: #444;
+  font-weight: bold;
+}
+h2 {
+  color: #444;
+}
+h3 {
+  color: #444;
+}
+h4 {
+  color:#444;
+}
+p {
+	color: #fff;
+  font-size: 18px
+}
+.orange {
+  color: orange;
+  font-size: 25px;
+}
+
+section h1, h2, h3, h4 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+/* MOBIL-HOME */

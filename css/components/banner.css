@@ -1,0 +1,28 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(/images/ponton.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 10px;
+}
+
+#home .banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.banner-container h1 {
+  font-size: 48px;
+  padding: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.banner-container p {
+  font-size: 24px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}

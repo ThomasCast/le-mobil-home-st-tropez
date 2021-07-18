@@ -1,0 +1,18 @@
+.btn-ghost {
+  color: white;
+  border: 2px solid white;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+	background-color: transparent;
+	transition: opacity 0.4s ease;
+	margin-top: 10px;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.btn-ghost:hover {
+	color: white;
+	border: 2px solid white;
+	background-color: orange;
+}
+
