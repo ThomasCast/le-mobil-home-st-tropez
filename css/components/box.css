@@ -5,6 +5,13 @@
   justify-content: center;
 }
 
+.info-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .box-info-mobil-home {
   box-shadow: 0px 0px 50px 0px rgb(157 157 157 / 30%);
   position: relative;
@@ -53,3 +60,11 @@
   top: 120px;
   left: -50px;
 }
+
+.box-image-contact img {
+  height: 400px;
+  box-shadow: 0px 0px 50px 0px rgb(157 157 157 / 30%);
+  object-fit: cover;
+  border-radius: 10px;
+}
+
