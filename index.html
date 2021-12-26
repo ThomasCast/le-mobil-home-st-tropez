@@ -46,7 +46,7 @@
         <div class="col-lg-6 col-md-12">
           <div class="box-info-mobil-home">
             <h2>Mobil-home 4/5 personnes</h2>
-            <p>description du mobil home</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fugit voluptatibus id? Nostrum laudantium commodi repellendus expedita, ea ipsa officiis natus ab, sint animi quos. Harum eveniet error odit architecto?</p>
             <a href="#">En savoir plus</a>
           </div>
         </div>
@@ -59,11 +59,11 @@
         <div class="col-lg-6 col-md-12">
           <div class="box-info-st-tropez">
             <h2>Le Golfe de Saint-Tropez</h2>
-            <p>description de la région</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum enim aliquam, repudiandae quasi voluptatum non magnam accusamus fuga accusantium impedit recusandae, illum ducimus quaerat nostrum. Inventore quo debitis quas magnam.</p>
             <a href="#">En savoir plus</a>
           </div>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6 col-md-6">
           <div class="box-image-st-tropez">
             <img src="/images/St Tropez.jpg" alt="Saint-Tropez">
           </div>
@@ -72,7 +72,7 @@
     </div>
   </section>
   <section id="contact">
-    <div class="container">
+    <div class="container" style="background-color: rgb(250, 191, 82);">
       <h2>Nous contacter</h2>
       <div class="info-contact">
         <div class="map">
@@ -80,24 +80,24 @@
         </div>
         <form action="#" method="GET" class="form">
           <div class="info-name">
-            <label for="fname">Prénom</label>
-            <input type="text" id="fname" name="firstname" placeholder="Prénom..">
-            <label for="lname">Nom</label>
-            <input type="text" id="lname" name="lastname" placeholder="Nom..">
+            <!-- <label for="fname">Prénom</label> -->
+            <input type="text" id="fname" name="firstname" placeholder=" Prénom">
+            <!-- <label for="lname">Nom</label> -->
+            <input type="text" id="lname" name="lastname" placeholder=" Nom">
           </div>
           <div class="email">
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" placeholder=" E-mail">
           </div>
           <div class="date">
-            <label for="checkin">Arrivée</label>
-            <input type="date" id="date-checkin" name="date-checkin" placeholder="Arrivée..">
-            <label for="checkout">Départ</label>
-            <input type="date" id="date-checkout" name="date-checkout" placeholder="Départ..">
+            <input type="text" id="date-checkin" name="date-checkin" onfocus="(this.type='date')" onblur="(this.type='date')" placeholder=" Arrivée..">
+            <input type="text" id="date-checkout" name="date-checkout" onfocus="(this.type='date')" onblur="(this.type='date')" placeholder=" Départ..">
           </div>
-          <label for="subject">Message</label>
-          <textarea id="subject" name="subject" placeholder="Votre message.." style="height:200px"></textarea>
-          <input type="submit" value="Envoyer">
+          <div>
+          <textarea id="subject" name="subject" placeholder=" Bonjour, Je souhaiterais savoir si..."></textarea>
+          </div>
+          <div class="submit_button">
+            <input type="submit" value="Envoyer">
+          </div>
         </form>
       </div>
     </div>

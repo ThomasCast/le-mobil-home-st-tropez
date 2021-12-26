@@ -16,7 +16,30 @@
 }
 
 label, input {
-  margin: 5px 5px 5px 0px;
+  margin-top: 10px;
+  height: 35px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
 }
 
+#fname, #date-checkin {
+  margin-right: 10px;
+}
+
+.info-name input {
+  border: none;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 10px;
+  height: 150px;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+}
 
