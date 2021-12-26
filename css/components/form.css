@@ -23,6 +23,7 @@ label, input {
   border-radius: 3px;
   font-size: 1em;
   font-family: 'Roboto', sans-serif;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
 #fname, #date-checkin {
@@ -41,5 +42,24 @@ textarea {
   border-radius: 3px;
   font-size: 1em;
   font-family: 'Roboto', sans-serif;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
+.submit_button {
+  display: flex;
+  justify-content: center;
+}
+.submit_button input {
+  width: 50%;
+  color:#444;
+  height: 40px;
+  align-items: center;
+  font-size: 1.5;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.submit_button input:hover {
+  background-color: orange;
+  color: #444;
+}

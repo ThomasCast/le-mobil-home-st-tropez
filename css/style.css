@@ -1,6 +1,5 @@
 @import "components/index.css";
 
-
 /* GENERAL */
 
 * {
@@ -31,22 +30,18 @@ h4 {
 }
 p {
 	color: #444;
-  font-size: 18px
-}
-.orange {
-  color: orange;
-  font-size: 25px;
+  font-size: 1em;
 }
 
 section {
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 section h1, h2, h3, h4 {
   text-align: center;
-  font-size: 32px;
+  font-size: 2em;
   font-weight: bold;
-  padding: 20px;
+  padding: 30px;
 }
 
 .container {
