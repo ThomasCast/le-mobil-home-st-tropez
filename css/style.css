@@ -15,6 +15,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.5;
+  width: 100vw;
 }
 
 a {
@@ -40,7 +41,7 @@ p {
 }
 
 section {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 section h1, h2, h3, h4 {
@@ -57,8 +58,12 @@ section h1, h2, h3, h4 {
   margin-left: auto;
 }
 
+#contact {
+  margin-top: 180px;
+}
+
 #contact h2 {
-  margin-top: 120px;
+  font-size: 3em;
 }
 
 /* @media (max-width: 960px) {

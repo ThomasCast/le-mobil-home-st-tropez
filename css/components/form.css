@@ -62,4 +62,5 @@ textarea {
 .submit_button input:hover {
   background-color: orange;
   color: white;
+  cursor:pointer;
 }
