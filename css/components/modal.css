@@ -35,7 +35,7 @@
 .modal__title {
   font-size: 2rem;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .modal__text {
@@ -62,29 +62,8 @@
   pointer-events: none;
 }
 
-/* .modal__btn {
-  padding: 1rem 1.6rem;
-  border: 1px solid hsla(0, 0%, 100%, .4);
-  border-radius: 100rem;
-
-  color: inherit;
-  background: transparent;
-  font-size: 1.4rem;
-  font-family: inherit;
-  letter-spacing: .2rem;
-
-  transition: .2s;
-  cursor: pointer;
-}
-
-.modal__btn:hover,
-.modal__btn:focus {
-  border-color: rgba(0, 0%, 100%, .6);
-  transform: translateY(-.2rem); */
-}
-
 /* links */
-/* =============================================== */
+
 .link-1 {
   font-size: 1rem;
 
@@ -100,13 +79,13 @@
 .link-1:hover,
 .link-1:focus {
   transform: translateY(-.2rem);
-  box-shadow: 0 0 4.4rem .2rem hsla(236, 50%, 50%, 0.4);
+  box-shadow: 0 0 4.4rem .2rem rgba(236, 50%, 50%, 0.4);
 }
 
 .link-2 {
   width: 4rem;
   height: 4rem;
-  border: 1px solid hsla(0, 0%, 100%, .4);
+  border: 1px solid rgba(0, 0%, 100%, .4);
   border-radius: 100rem;
 
   color: inherit;
@@ -131,40 +110,6 @@
 
 .link-2:hover,
 .link-2:focus {
-  border-color: hsla(0, 0%, 100%, .6);
+  border-color: rgba(0, 0%, 100%, .6);
   transform: translateY(-.2rem);
-}
-
-/* Second Version Link */
-/* =============================================== */
-.second-version-link,
-.second-version-link:link {
-  color: hsl(236, 50%, 50%);
-  padding: .8rem 1.6rem .8rem .2rem;
-  border-bottom: 2px solid hsl(236, 50%, 50%);
-
-  font-size: 1.4rem;
-  font-weight: bold;
-
-  position: absolute;
-  top: 4rem;
-  right: 4rem;
-}
-
-.second-version-link::after {
-  content: '\2197';
-
-  position: absolute;
-  top: 0;
-  right: 0;
-
-  font-size: .9em;
-}
-
-.abs-site-link {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  color: hsla(0, 0%, 0%, .6);
-  font-size: 1.6rem;
 }
