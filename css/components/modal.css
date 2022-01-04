@@ -38,30 +38,6 @@
   padding: 10px;
 }
 
-.modal__text {
-  padding: 0 4rem;
-  margin-bottom: 4rem;
-
-  font-size: 1.6rem;
-  line-height: 2;
-}
-
-.modal__text::before {
-  content: '';
-
-  position: absolute;
-  top: 0%;
-  left: 100%;
-  transform: translate(-50%, -50%);
-
-  width: 18rem;
-  height: 18rem;
-  border: 1px solid hsla(0, 0%, 100%, .2);
-  border-radius: 100rem;
-
-  pointer-events: none;
-}
-
 /* links */
 
 .link-1 {
