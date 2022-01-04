@@ -11,6 +11,9 @@
   display: grid;
   grid-template-areas: ;
 } */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
 	font-family: 'Roboto', sans-serif;

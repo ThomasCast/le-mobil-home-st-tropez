@@ -35,7 +35,8 @@ label, input {
 }
 
 textarea {
-  width: 100%;
+  max-width: 500px;
+  min-width: 500px;
   margin-top: 10px;
   height: 150px;
   border: none;
