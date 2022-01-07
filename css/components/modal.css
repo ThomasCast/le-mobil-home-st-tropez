@@ -61,11 +61,9 @@
 .link-2 {
   width: 4rem;
   height: 4rem;
-  border: 1px solid rgba(0, 0%, 100%, .4);
-  border-radius: 100rem;
 
   color: inherit;
-  font-size: 2.2rem;
+  font-size: 3rem;
 
   position: absolute;
   top: 2rem;
@@ -86,6 +84,6 @@
 
 .link-2:hover,
 .link-2:focus {
-  border-color: rgba(0, 0%, 100%, .6);
+  color: orange;
   transform: translateY(-.2rem);
 }
