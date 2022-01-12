@@ -67,7 +67,7 @@ section h1, h2, h3, h4 {
   font-size: 3em;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1490px) {
 
   .info-mobil-home {
     display: flex;
@@ -76,15 +76,33 @@ section h1, h2, h3, h4 {
 
   .box-image-mobil-home img {
     position: static;
+    margin-bottom: 30px;
+    max-width: 680px;
+    max-height: none;
+  }
+
+  .box-info-mobil-home {
+    width: 600px;
+    max-height: none;
+    padding: 40px;
   }
 
   .info-st-tropez {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   
   .box-image-st-tropez img {
     position: static;
+    max-width: 680px;
+    max-height: none;
+  }
+
+  .box-info-st-tropez {
+    margin-top: 30px;
+    width: 600px;
+    max-height: none;
+    padding: 40px;
   }
 
   #contact {
@@ -101,13 +119,32 @@ section h1, h2, h3, h4 {
     margin-top: 30px;
   }
 
-
 }
 
-@media (max-width: 720px) {
+@media (max-width: 960px) {
+  .logo h1 {
+    font-size: 1.5em;
+  }
+
+  .banner-container h1, .banner-container h4, .banner-container p {
+      font-size: 2.5em;
+  }
+}
+
+@media (max-width: 760px) {
   
+  .logo h1 {
+    font-size: 1.5em;
+  }
+
+  .banner-container h1, .banner-container h4, .banner-container p {
+      font-size: 2em;
+  }
 }
 
 @media (max-width: 540px) {
   
+  .map {
+    margin-right: 0px;
+  }
 }
