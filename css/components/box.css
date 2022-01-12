@@ -2,16 +2,14 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
-  margin-left: 10%;
+  justify-content: center;
 }
 
 .info-st-tropez {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  justify-content: flex-start;
-  margin-right: 10%;
+  justify-content: center;
 }
 
 .info-contact {
@@ -24,21 +22,17 @@
 
 .box-info-mobil-home {
   box-shadow: 0px 0px 50px 0px rgb(157 157 157 / 30%);
-  position: relative;
   background: #fff;
-  padding: 60px 50px 60px 80px;
-  height: auto;
-  width: 700px;
+  padding: 40px 50px 60px 80px;
+  max-width: 600px;
   border-radius: 10px;
 }
 
 .box-info-st-tropez {
   box-shadow: 0px 0px 50px 0px rgb(157 157 157 / 30%);
-  position: relative;
   background: #fff;
-  padding: 60px 80px 60px 50px;
-  height: auto;
-  width: 700px;
+  padding: 40px 80px 60px 50px;
+  max-width: 600px;
   border-radius: 10px;
   margin-top: 80px;
 }
@@ -53,24 +47,22 @@
 
 .box-image-mobil-home img {
   max-height: 500px;
-  max-width: 100%;
   box-shadow: 0px 0px 50px 0px rgb(157 157 157 / 30%);
   border-radius: 10px;
   position: relative;
   z-index: 1;
-  top: 80px;
+  top: 90px;
   left: 50px;
 }
 
 .box-image-st-tropez img {
   max-height: 500px;
-  max-width: 100%;
   box-shadow: 0px 0px 50px 0px rgb(157 157 157 / 30%);
   border-radius: 10px;
   position: relative;
   z-index: 1;
-  top: 120px;
-  left: -50px;
+  top: 160px;
+  right: 50px;
 }
 
 .box-image-contact img {

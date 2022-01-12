@@ -38,7 +38,7 @@
       <div class="container">
         <div class="info-mobil-home">
           <div class="box-image-mobil-home">
-            <img src="/images/vue ensemble.jpg" alt="mobil home">
+            <img src="/images/vue ensemble.jpg" alt="mobil-home">
           </div>
           <div class="box-info-mobil-home">
             <h2>Mobil-home 4/5 personnes</h2>
@@ -51,13 +51,13 @@
               Seconde terrasse découverte avec 2 transats.<br>
               Une place de Parking devant le Mobil home.</p>
             <div><p>Equipements :</p>
-              <div class="elements">
+              <!-- <div class="elements">
                 <img src="" alt="">
                 <img src="" alt="">
                 <img src="" alt="">
                 <img src="" alt="">
                 <img src="" alt="">
-              </div>
+              </div> -->
             </div>
               <br>
             <a href="#modal-opened" class="link-1" id="modal-closed">Voir plus de photos</a>
@@ -65,10 +65,8 @@
               <div class="modal">
                 <div class="modal__details">
                   <h1 class="modal__title">Photos du Mobil-Home</h1>
-                  <!-- Container for the image gallery -->
                   <div class="container-gallery">
-                    <!-- Full-width images with number text -->
-                    <div class="mySlides">
+                    <div class="mySlides" style="display: block;">
                       <div class="numbertext">1 / 11</div>
                         <img src="images/canapé ext de nuit 2 .jpg">
                     </div>
@@ -112,7 +110,6 @@
                       <div class="numbertext">11 / 11</div>
                       <img src="images/Piscine Camping.jpg">
                     </div>
-                    <!-- Next and previous buttons -->
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                   </div>

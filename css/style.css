@@ -67,20 +67,47 @@ section h1, h2, h3, h4 {
   font-size: 3em;
 }
 
-/* @media (max-width: 960px) {
-  .wrapper {
-    width: 700px;
+@media (max-width: 1500px) {
+
+  .info-mobil-home {
+    display: flex;
+    flex-direction: column;
   }
+
+  .box-image-mobil-home img {
+    position: static;
+  }
+
+  .info-st-tropez {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .box-image-st-tropez img {
+    position: static;
+  }
+
+  #contact {
+    margin-top: 80px;
+  }
+
+  .info-contact {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 0;
+  }
+
+  .map {
+    margin-top: 30px;
+  }
+
+
 }
 
 @media (max-width: 720px) {
-  .wrapper {
-    width: 500px;
-  }
+  
 }
 
 @media (max-width: 540px) {
-  .wrapper {
-    width: 300px;
-  }
-} */
+  
+}
