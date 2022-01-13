@@ -16,6 +16,7 @@
 
 .banner-container h1 {
   font-size: 48px;
+  text-align: center;
   padding: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
@@ -23,12 +24,14 @@
 
 .banner-container h4 {
   font-size: 3em;
+  text-align: center;
   padding: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .banner-container p {
+  text-align: center;
   font-size: 2em;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
