@@ -36,3 +36,33 @@
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+
+.banner-container span {
+  overflow: hidden;
+  display: block;
+}
+
+.banner-container h4 > span > span{
+  animation-delay: 1.5s;
+}
+
+.banner-container p > span > span {
+  animation-delay: 2s;
+}
+
+.banner-container span > span {
+  visibility: hidden;
+  animation: spanFadeIn 2s ease forwards;
+  animation-delay: 1s;
+}
+
+@keyframes spanFadeIn {
+  0% {
+    transform: translateY(100%);
+    visibility: hidden;
+  }
+  100% {
+    transform: translateY(0%);
+    visibility: visible;
+  }
+}

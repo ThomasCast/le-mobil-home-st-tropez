@@ -41,8 +41,16 @@
   padding: 0 0 20px 0;
 }
 
+/* .box-info-mobil-home p {
+  line-height: 2;
+} */
+
 .box-info-st-tropez h2 {
   padding: 0 0 20px 0;
+}
+
+.box-info-st-tropez p {
+  line-height: 2;
 }
 
 .box-image-mobil-home img {
