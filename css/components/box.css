@@ -23,7 +23,7 @@
 .box-info-mobil-home {
   box-shadow: 0px 0px 50px 0px rgb(157 157 157 / 30%);
   background: #fff;
-  padding: 40px 50px 60px 80px;
+  padding: 30px 50px 40px 80px;
   max-width: 600px;
   border-radius: 10px;
 }
@@ -31,19 +31,19 @@
 .box-info-st-tropez {
   box-shadow: 0px 0px 50px 0px rgb(157 157 157 / 30%);
   background: #fff;
-  padding: 40px 80px 60px 50px;
+  padding: 30px 80px 40px 50px;
   max-width: 600px;
   border-radius: 10px;
-  margin-top: 80px;
+  margin-top: 110px;
 }
 
 .box-info-mobil-home h2 {
   padding: 0 0 20px 0;
 }
 
-/* .box-info-mobil-home p {
+.box-info-mobil-home p {
   line-height: 2;
-} */
+}
 
 .box-info-st-tropez h2 {
   padding: 0 0 20px 0;
@@ -59,7 +59,7 @@
   border-radius: 10px;
   position: relative;
   z-index: 1;
-  top: 90px;
+  top: 120px;
   left: 50px;
 }
 
