@@ -1,5 +1,5 @@
 .banner {
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(/images/ponton.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.055)), url(/images/ponton.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;

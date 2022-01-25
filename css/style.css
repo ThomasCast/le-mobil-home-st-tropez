@@ -5,7 +5,6 @@
 * {
 	margin: 0;
 	padding: 0;
-  box-sizing: content-box;
 }
 
 html {
@@ -15,11 +14,6 @@ html {
 body {
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.5;
-}
-
-.wrapper {
-  width: 100vw;
-  overflow-x: hidden;
 }
 
 a {
@@ -125,7 +119,8 @@ section h1, h2, h3, h4 {
 
 }
 
-@media screen and (max-width: 960px) {
+/*TABLET*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .logo h1 {
     font-size: 1.5em;
   }
@@ -133,34 +128,22 @@ section h1, h2, h3, h4 {
   .banner-container h1, .banner-container h4, .banner-container p {
       font-size: 2.5em;
   }
-}
 
-@media screen and (max-width: 768px) {
-  
-  .logo h1 {
-    font-size: 1em;
-  }
-
-  .banner-container h1, .banner-container h4, .banner-container p {
-      font-size: 1.5em;
-  }
-  
   .map {
     margin-right: 0px;
 }
 
-@media screen and (max-width: 480px) {
-
+/*SMARTPHONE*/
+@media screen and (max-width: 767px) {
   .logo h1 {
-    font-size: 1em;
+    font-size: 60px;
   }
-
+  
   .banner-container h1, .banner-container h4, .banner-container p {
-      font-size: 1.5em;
+      font-size: 1em;
   }
   
   .map {
     margin-right: 0px;
-}
-
+  }
 }
