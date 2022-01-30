@@ -65,6 +65,7 @@ section h1, h2, h3, h4 {
   font-size: 3em;
 }
 
+/* DESKTOP*/
 @media screen and (max-width: 1500px) {
 
   .info-mobil-home {
@@ -76,12 +77,10 @@ section h1, h2, h3, h4 {
     position: static;
     margin-bottom: 30px;
     max-width: 680px;
-    max-height: none;
   }
 
   .box-info-mobil-home {
     width: 600px;
-    max-height: none;
     padding: 40px;
   }
 
@@ -92,14 +91,12 @@ section h1, h2, h3, h4 {
   
   .box-image-st-tropez img {
     position: static;
-    max-width: 680px;
-    max-height: none;
+    width: 680px;
   }
 
   .box-info-st-tropez {
     margin-top: 30px;
     width: 600px;
-    max-height: none;
     padding: 40px;
   }
 
@@ -116,6 +113,7 @@ section h1, h2, h3, h4 {
   .map {
     margin-top: 30px;
   }
+  
 
 }
 
@@ -131,19 +129,156 @@ section h1, h2, h3, h4 {
 
   .map {
     margin-right: 0px;
+  }
+
+  .box-image-mobil-home img, .box-image-st-tropez img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .box-info-mobil-home, .box-info-st-tropez {
+    padding: 15px;
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .box-info-mobil-home h2, .box-info-st-tropez h2 {
+    font-size: 1.7em;
+  }
+
+  .modal {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .modal__title {
+    font-size: 2em;
+  }
+
+  .modal-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .link-2 {
+    font-size: 2em;
+    height: 0.5rem;
+    width: 0.5rem;
+  }
+
+  #contact h2 {
+    font-size: 2em;
+  }
+
+  form {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .info-name {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .date {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map iframe {
+    max-width: 100%;
+    height: 450px;
+  }
+
+  .footer {
+    padding: 15px;
+  }
+  .footer p, .footer a {
+    font-size: 0.6em;
+  } 
 }
 
 /*SMARTPHONE*/
 @media screen and (max-width: 767px) {
   .logo h1 {
-    font-size: 60px;
+    font-size: 1em;
   }
-  
+
   .banner-container h1, .banner-container h4, .banner-container p {
-      font-size: 1em;
+      font-size: 1.2em;
   }
-  
+
   .map {
     margin-right: 0px;
   }
+
+  .box-image-mobil-home img, .box-image-st-tropez img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .box-info-mobil-home, .box-info-st-tropez {
+    padding: 15px;
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .box-info-mobil-home h2, .box-info-st-tropez h2 {
+    font-size: 1.3em;
+  }
+
+  .modal {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .modal__title {
+    font-size: 1.5em;
+  }
+
+  .modal-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .link-2 {
+    font-size: 2em;
+    height: 0.5rem;
+    width: 0.5rem;
+  }
+
+  #contact h2 {
+    font-size: 2em;
+  }
+
+  form {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .info-name {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .date {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map iframe {
+    max-width: 100%;
+    height: 250px;
+  }
+
+  .footer {
+    padding: 15px;
+  }
+  .footer p, .footer a {
+    font-size: 0.6em;
+  } 
 }

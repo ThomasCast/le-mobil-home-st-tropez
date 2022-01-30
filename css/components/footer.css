@@ -11,7 +11,7 @@
   margin-top: 0px;
 }
 
-.footer_link a {
+.footer a {
   color: white;
   opacity: 0.15;
   text-decoration: none;
@@ -20,11 +20,11 @@
   padding: 0px 10px;
 }
 
-.footer_link a:hover {
+.footer a:hover {
   opacity: 1;
 }
 
-.footer_copyright p {
+.footer p {
   color: white;
   opacity: 0.5;
   font-size: 1em;
