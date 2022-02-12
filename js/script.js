@@ -1,3 +1,5 @@
+/*MODAL*/
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -27,4 +29,16 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+
+/*RESPONSIVE NAVBAR*/
+
+function myFunction() {
+  var x = document.getElementById("menu");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
 }

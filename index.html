@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>Le Mobil-home de St Trop'</title>
   <meta charset="utf-8">
@@ -16,15 +15,20 @@
 <body>
   <div class="banner" id="home">
     <div class="navbar" id="menu">
-      <a class="logo" href="index.html">
-        <h1>Le mobil-home de St Trop<span class="orange">'</span></h1>
-      </a>
-      <ul>
-        <li><a href="#home">Accueil</a></li>
-        <li><a href="#mobil-home">Mobil-home</a></li>
-        <li><a href="#saint-tropez">Saint-Tropez</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <div id="logo">
+        <a class="logo" href="index.html">
+          <h1>Le mobil-home de St Trop<span class="orange">'</span></h1>
+        </a>
+      </div>
+      <div class="list">
+        <ul>
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#mobil-home">Mobil-home</a></li>
+          <li><a href="#saint-tropez">Saint-Tropez</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <a href="javascript:void(0);" style="font-size:1.5em;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
       <div class="banner-container">
           <h1><span><span>Location de mobil-home à Saint-Tropez</span></span></h1>
@@ -158,13 +162,13 @@
           <div class="map">
             <iframe width="500px" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=43.237516,%206.658944+(Mobil%20home)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
           </div>
-          <form action="#" method="GET" class="form">
+          <form action="#" method="post" class="form">
             <div class="info-name">
-              <input type="text" id="fname" name="firstname" placeholder=" Prénom">
-              <input type="text" id="lname" name="lastname" placeholder=" Nom">
+              <input type="text" id="fname" name="firstname" placeholder=" Prénom" required>
+              <input type="text" id="lname" name="lastname" placeholder=" Nom" required>
             </div>
             <div class="email">
-              <input type="email" id="email" name="email" placeholder=" E-mail">
+              <input type="email" id="email" name="email" placeholder=" E-mail" required>
             </div>
             <div class="date">
               <input type="text" id="date-checkin" name="date-checkin" onfocus="(this.type='date')" onblur="(this.type='date')" placeholder=" Arrivée..">
@@ -177,7 +181,7 @@
               <input type="submit" value="Envoyer">
             </div>
           </form>
-      </div>
+        </div>
     </section>
     <section class="footer" id="footer">
       <p>LE MOBIL-HOME DE ST TROP' © 2021 •</p>
@@ -185,5 +189,4 @@
     </section>
   </div>
 </body>
-
 </html>
