@@ -15,7 +15,7 @@ $subject = "Demande informations Mobil-home St Tropez";
 $body = "Nom : ".$firstname. " " .$lastname. "\r\n".
         "Email : ".$email. "\r\n".
         "Date d'arrivee : ".$checkin. "\r\n".
-        "Date de départ : ".$checkout. "\r\n".
+        "Date de depart : ".$checkout. "\r\n".
         "Message : ".$message;
 $header = "From:mobil-home@lemobilhomedesttrop.go.yo.fr"."\r\n".
             "Reply-To:".$email."\e\n".

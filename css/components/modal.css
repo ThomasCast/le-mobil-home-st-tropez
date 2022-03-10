@@ -20,8 +20,8 @@
 }
 
 .modal {
-  height: 90%;
-  padding: 2rem 2rem;
+  max-height: 600px;
+  padding: 0.5rem 2rem 2rem 2rem;
   border-radius: .8rem;
   color: #444;
   background: rgb(255, 255, 255);
@@ -59,8 +59,8 @@
   color: inherit;
   font-size: 3rem;
   position: absolute;
-  top: 2rem;
-  right: 2rem;
+  top: 0.5rem;
+  right: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
