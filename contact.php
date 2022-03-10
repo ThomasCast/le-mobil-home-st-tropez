@@ -1,3 +1,4 @@
+
 <?php
 
 if(isset($_POST['email']) && !empty($_POST['email'])){
@@ -11,9 +12,9 @@ if(isset($_POST['email']) && !empty($_POST['email'])){
 
 $to = "tomas2mars@hotmail.fr";
 $subject = "Demande informations Mobil-home St Tropez";
-$body = "Nom : ".$firstname. $lastname. "\r\n".
+$body = "Nom : ".$firstname. " " .$lastname. "\r\n".
         "Email : ".$email. "\r\n".
-        "Date d'arrivée : ".$checkin. "\r\n".
+        "Date d'arrivee : ".$checkin. "\r\n".
         "Date de départ : ".$checkout. "\r\n".
         "Message : ".$message;
 $header = "From:mobil-home@lemobilhomedesttrop.go.yo.fr"."\r\n".
