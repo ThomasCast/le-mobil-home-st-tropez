@@ -1,0 +1,85 @@
+.elements {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  & span {
+    height: 50px;
+    width: 50px;
+    margin: 10px 0 0 0;
+    background-size: cover;
+    }
+}
+
+#span1 {
+  background-image: url("/images/icons/temperatures.png");
+  &:hover {
+    background-image: url("/images/icons/temperatures-2.png");
+  }
+}
+#span2 {
+  background-image: url("/images/icons/cuisinière.png");
+  &:hover {
+    background-image: url("/images/icons/cuisinière-2.png");
+  }
+}
+#span3 {
+  background-image: url("/images/icons/refrigerateur.png");
+  &:hover {
+    background-image: url("/images/icons/refrigerateur-2.png");
+  }
+}
+#span4 {
+  background-image: url("/images/icons/four-micro-onde.png");
+  &:hover {
+    background-image: url("/images/icons/four-micro-onde-2.png");
+  }
+}
+#span5 {
+  background-image: url("/images/icons/cafetiere.png");
+  &:hover {
+    background-image: url("/images/icons/cafetiere-2.png");
+  }
+}
+#span6 {
+  background-image: url("/images/icons/toaster.png");
+  &:hover {
+    background-image: url("/images/icons/toaster-2.png");
+  }
+}
+#span7 {
+  background-image: url("/images/icons/bouilloire-electrique.png");
+  &:hover {
+    background-image: url("/images/icons/bouilloire-electrique-2.png");
+  }
+}
+#span8 {
+  background-image: url("/images/icons/television.png");
+  &:hover {
+    background-image: url("/images/icons/television-2.png");
+  }
+}
+#span9 {
+  background-image: url("/images/icons/sechoir.png");
+  &:hover {
+    background-image: url("/images/icons/sechoir-2.png");
+  }
+}
+#span10 {
+  background-image: url("/images/icons/barbecue.png");
+  &:hover {
+    background-image: url("/images/icons/barbecue-2.png");
+  }
+}
+#span11 {
+  background-image: url("/images/icons/voiture.png");
+  &:hover {
+    background-image: url("/images/icons/voiture-2.png");
+  }
+}
+#span12 {
+  background-image: url("/images/icons/animaux-acceptes.png");
+  &:hover {
+    background-image: url("/images/icons/animaux-acceptes-2.png");
+  }
+}

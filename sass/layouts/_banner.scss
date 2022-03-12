@@ -1,0 +1,60 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0, 0.055)), url(/images/ponton.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 10px;
+  &-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    & h1 {
+      font-size: 48px;
+      text-align: center;
+      padding: 0;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    }
+    & h4 {
+      font-size: 3em;
+      text-align: center;
+      padding: 0;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+      & > span > span {
+       animation-delay: 1.5s;
+      }
+    }
+    & p {
+      text-align: center;
+      font-size: 2em;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+      & > span > span {
+        animation-delay: 2s;
+      }
+    }
+    & span {
+      overflow: hidden;
+      display: block;
+      & > span {
+        visibility: hidden;
+        animation: spanFadeIn 2s ease forwards;
+        animation-delay: 1s;
+      }
+    }
+  }
+}
+
+@keyframes spanFadeIn {
+  0% {
+    transform: translateY(100%);
+    visibility: hidden;
+  }
+  100% {
+    transform: translateY(0%);
+    visibility: visible;
+  }
+}

@@ -1,4 +1,4 @@
-  
+
   img {
     vertical-align: middle;
   }
@@ -11,15 +11,13 @@
   /* Hide the images by default */
   .mySlides {
     display: none;
-  }
-
-  .mySlides img {
-    width: 710px;
+    & img {
+      width: 710px;
+    }
   }
   
   /* Next & previous buttons */
-  .prev,
-  .next {
+  .prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -41,8 +39,7 @@
   }
   
   /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
+  .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
   

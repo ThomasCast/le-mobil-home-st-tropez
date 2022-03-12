@@ -1,0 +1,281 @@
+
+/* DESKTOP*/
+@media screen and (max-width: $max-desktop){
+
+  .info-mobil-home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-image-mobil-home img {
+    position: static;
+    margin-bottom: 30px;
+    max-width: 680px;
+  }
+
+  .box-info-mobil-home {
+    width: 600px;
+    padding: 40px;
+  }
+
+  .info-st-tropez {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .box-image-st-tropez img {
+    position: static;
+    width: 680px;
+  }
+
+  .box-info-st-tropez {
+    margin-top: 30px;
+    width: 600px;
+    padding: 40px;
+  }
+
+  #contact {
+    margin-top: 80px;
+  }
+
+  .info-contact {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 0;
+  }
+
+  .map {
+    margin-top: 30px;
+  } 
+}
+
+/*TABLET*/
+@media screen and (min-width: $min-tablet) and (max-width: $max-tablet){
+
+  .navbar { 
+    & li {
+    display: none;
+    }
+    & a.menu_icon {
+      float: right;
+      display: block;
+    }
+    &.responsive {
+      position: relative;
+      flex-direction: column;
+      align-items: flex-start;
+      & a.menu_icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      & li {
+        float: none;
+        display: block;
+        text-align: left;
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  .logo h1 {
+    font-size: 1.8em;
+  }
+
+  .banner-container {
+    & h1, h4, p {
+      font-size: 2.5em;
+    }
+  }
+
+  .map {
+    margin-right: 0px;
+  }
+
+  .box-image-mobil-home, .box-image-st-tropez {
+      & img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 30px;
+      }
+  }
+
+  .box-info-mobil-home, .box-info-st-tropez {
+    padding: 15px;
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    & h2{
+      font-size: 1.9em;
+    }
+  }  
+
+  .modal {
+    max-width: 100%;
+    height: auto;
+    &__title {
+      font-size: 2em;
+    }
+    &-container img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .btn_modal {
+    text-align: center;
+  }
+
+  .link-2 {
+    font-size: 3em;
+  }
+
+  #contact h2 {
+    font-size: 2.3em;
+  }
+
+  form {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .info-name {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .date {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map iframe {
+    max-width: 100%;
+    height: 450px;
+  }
+
+  .footer {
+    padding: 15px;
+    & p, a {
+      font-size: 0.9em;
+    } 
+  }
+}
+
+/*SMARTPHONE*/
+@media screen and (max-width: $max-smartphone){
+  .navbar { 
+    & li {
+    display: none;
+    }
+    & a.menu_icon {
+      float: right;
+      display: block;
+    }
+    &.responsive {
+      position: relative;
+      flex-direction: column;
+      align-items: flex-start;
+      & a.menu_icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      & li {
+        float: none;
+        display: block;
+        text-align: left;
+        font-size: 1.3em;
+      }
+    }
+  }
+
+  #home.banner-container {
+    height: 50vh;
+  }
+
+  .logo h1 {
+    font-size: 1.3em;
+  }
+
+  .banner-container {
+    & h1, h4, p {
+      font-size: 1.6em;
+    }
+  }
+
+  .map {
+    margin-right: 0px;
+  }
+
+  .box-image-mobil-home, .box-image-st-tropez {
+    & img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    }
+  }
+
+  .box-info-mobil-home, .box-info-st-tropez {
+    padding: 15px;
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    & h2 {
+      font-size: 1.8em;
+    }
+  }
+  
+  .modal {
+    max-width: 100%;
+    height: auto;
+    &__title {
+      font-size: 1.5em;
+    }
+    &-container img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .btn_modal {
+    text-align: center;
+  }
+
+  .link-2 {
+    font-size: 3em;
+    top: 0.1em;
+  }
+
+  #contact h2 {
+    font-size: 2.3em;
+  }
+
+  form {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .info-name {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .date {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map iframe {
+    max-width: 100%;
+    height: 250px;
+  }
+
+  .footer {
+    padding: 15px;
+    & p, a {
+      font-size: 0.7em;
+    } 
+  }
+}
+  

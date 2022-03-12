@@ -1,0 +1,21 @@
+{
+  "name": "le-mobil-home-st-tropez",
+  "version": "1.0.0",
+  "description": "Premier projet personel d'un site vitrine pour de la location de mobil-home à Saint Tropez en HTML / CSS / JS from scratch. www.lemobilhomedesttrop.go.yo.fr",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css",
+    "prefix":"postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasCast/le-mobil-home-st-tropez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/ThomasCast/le-mobil-home-st-tropez/issues"
+  },
+  "homepage": "https://github.com/ThomasCast/le-mobil-home-st-tropez#readme"
+}

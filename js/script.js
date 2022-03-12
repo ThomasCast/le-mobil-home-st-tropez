@@ -31,17 +31,15 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
-
 /*RESPONSIVE NAVBAR*/
 
 function myFunction() {
-  var x = document.getElementById("menu");
-  if (x.className === "navbar") {
-    x.className += " responsive";
+  var menu = document.getElementById("menu");
+  if (menu.className === "navbar") {
+    menu.className += " responsive";
   } else {
-    x.className = "navbar";
+    menu.className = "navbar";
   }
 }
-
 
 /*ANIMATION SCROLL*/
